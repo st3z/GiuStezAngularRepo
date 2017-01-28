@@ -8,9 +8,10 @@
  * Controller of the angularYeoAppApp
  */
 angular.module('angularYeoAppApp')
-  .controller('ProfileCtrl', function () {
+  .controller('ProfileCtrl', function ($scope) {
    
-   $scope.varia = "ciao";
-
-
+   $scope.varia = "Stefano";
+  
+     
+           
   });
