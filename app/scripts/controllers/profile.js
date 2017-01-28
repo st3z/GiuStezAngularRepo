@@ -11,7 +11,7 @@ angular.module('angularYeoAppApp')
   .controller('ProfileCtrl', function ($scope) {
    
    $scope.varia = "Stefano";
-  
+  	$scope.giu = "giusy";
      
            
   });
